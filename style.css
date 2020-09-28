@@ -1,0 +1,97 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  /* I am using a background image */
+  background-image: url("https://cdn.glitch.com/67c2a52b-1053-47cb-acab-567ae8c08167%2Fsky1200.jpg?v=1601061664125");
+  background-color: #F0F8FF;
+  width: 80%;
+  padding: 2.5% 2.5% 4% 7%;
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: navy;
+}
+
+h2,
+h3,
+h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  color: #00008B;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+/* This is for my content selection. As I am using ul later on in different styles,
+                      I am using a class in here */
+ul.content {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4682B4;
+}
+
+li.content {
+  float: left;
+}
+
+li a.content {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0 0 0 30px;
+  text-decoration: none;
+}
+
+.current {
+  background-color: #00008B;
+}
+
+.container {
+  text-align: center;
+  color: #00008B;
+}
+.headerName {
+  bottom: 10%;
+  left: 5%;
+}
+.flowLeft {
+  margin-right: 10px;
+  float: left;
+}
+
+.flowRight {
+  margin-left: 10px;
+  float: right;
+}
+.divBackground {
+  background-color: #F0F8FF;
+  padding: 5px 10px 10px 10px;
+}
+ul li {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: black;
+}
+
+footer {
+  border-top: 1px solid gray;
+  text-align: left;
+  font-size: 0.7em;
+}
